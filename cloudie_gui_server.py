@@ -159,7 +159,7 @@ btn_frame.pack(pady=10)
 btn_frame.pack_propagate(False)
 
 # Buttons inside the frame
-ctk.CTkButton(btn_frame, text="▶️ Start Server", width=150, command=start_server).grid(row=0, column=0, padx=15)
+ctk.CTkButton(btn_frame, text="▶️ Start Server", width=150, height=80, corner_radius=10, command=start_server).grid(row=0, column=0, padx=15)
 ctk.CTkButton(btn_frame, text="⏹️ Stop Server", width=150, command=stop_server).grid(row=0, column=1, padx=15)
 
 # Log Section
